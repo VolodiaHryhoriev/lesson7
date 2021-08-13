@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #color {
+            display: none;
+        }
+        #color div {
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+        }
+        #img {
+            display: none;
+            width: 100%;
+            height: auto;
+        }
+        #img img {
+            width: 200px;
+            height: 200px;
+            border: 1px solid black; 
+            background-size: cover;
+            background-repeat: no-repeat; 
+        }
+    </style>
+</head>
+<body>
+    <h1 onclick="chooseColor()">Колір</h1>
+    <div id="color">
+        <div onclick="changeBg()" style="background-color: red;"></div>
+        <div onclick="changeBg()" style="background-color: orange;"></div>
+        <div onclick="changeBg()" style="background-color: blue;"></div>
+        <div onclick="changeBg()" style="background-color: pink;"></div>
+        <div onclick="changeBg()" style="background-color: #003300;"></div>
+        <div onclick="changeBg()" style="background-color: #003366;"></div>
+        <div onclick="changeBg()" style="background-color: #660033;"></div>
+        <div onclick="changeBg()" style="background-color: #ffffcc;"></div>
+        <div onclick="changeBg()" style="background-color: #666699;"></div>
+    </div>
+    <h1 onclick="chooseImg()">Зображення</h1>
+    <div id="img">
+        <img onclick="changeImgBg()" src="https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="1">
+        <img onclick="changeImgBg()" src="https://images.pexels.com/photos/235986/pexels-photo-235986.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="2">
+        <img onclick="changeImgBg()" src="https://files.oyebesmartest.com/uploads/large/115513299325ek55nr8un8qqhatyti1fip2amjxr8f3nnkz2h5siwurotrssysemnbpxek5q8m7uophqj97wmvzgzprpa9nefghhivukjyryhdi.jpg" alt="3">
+        <img onclick="changeImgBg()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRazrg_c3nBw2-ne1lc4MEGC91KYJWgGGAPYA&usqp=CAU" alt="4">
+        <img onclick="changeImgBg()" src="https://i.pinimg.com/originals/4c/fd/b7/4cfdb769aa9ecb99413722f64e4ba144.jpg" alt="5">
+        <img onclick="changeImgBg()" src="https://wallpapercave.com/wp/wp2704824.jpg" alt="6">
+        <img onclick="changeImgBg()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTni4ehaYZ4ybjCpmtW4dAHB4vx5zLDi8gZP3Vsisu8SFXMzPdnH2QP9XfPl_3rgk0_FS4&usqp=CAU" alt="7">
+        <img onclick="changeImgBg()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-SHnKyGFPKLjb7IXUcI7IOAW8sfynGpzUG_immaMyKZ01NvmCP2pe6cZlN-EwzN0GufY&usqp=CAU" alt="8">
+        <img onclick="changeImgBg()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCzmxL8NqgIhIfqiEfkIE3CKB6Y_4I7lpQtd17ZJM_hFhpzZzIeVy26qCRMk8AODMyTSE&usqp=CAU" alt="9">
+    </div>
+
+    
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
